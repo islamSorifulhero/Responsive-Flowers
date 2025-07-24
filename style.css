@@ -103,17 +103,21 @@
     border: none;
     padding: 19px 80px;
 }
+.cart-section{
+    width: 79%;
+    height: auto;
+    margin: 49px auto;
+    align-items: center;
+
+}
 .main-cart-box{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     justify-items: center;
-    width: 79%;
-    height: auto;
-    margin: 49px auto;
-    align-items: center;
 }
 /* flower love section */
+
 .flower-lover-section{
     display: flex;
     width: 69%;
@@ -125,10 +129,7 @@
 .main-list-item{
     margin-top: 20px;
 }
-.flower-img img{
-    width: 100%;
-    height: auto;
-}
+
 .badge{
     width: 286px;
     height: 286px;
@@ -137,6 +138,108 @@
     margin-left: 564px;
 }
 
+/* challange section */
+
+.challange-section{
+    width: 79%;
+    margin: 120px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+.offer-left{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+.offer-card{
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    color:#ffffff;
+}
+.offer-card::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+.offer-card h3, .offer-card .shop-now{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+.offer-card h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 30%;
+}
+.shop-now{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 90px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.offer-60{
+    background-image: url(assets/deal-bloom.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.offer-25{
+    background-image: url(assets/deal-zabo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.offer-30{
+    background-image: url(assets/deal-ana.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* colorful bunch */
+.colorful-bunch{
+    width: 100%;
+    height: auto;
+    background-image: url(assets/news-letter-bg.png);
+    text-align: center;
+    align-items: center;
+    /* padding: 190px 300px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.colorful-bunch h1{
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top: 199px;
+}
+.inp-file{
+    margin-top: 5px;
+    padding-bottom: 199px;
+}
+.inp-file input{
+    padding-top: 15px;
+    padding-bottom: 15.5px;
+    padding-left: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    /* width: 644px; */
+    color: rgba(0, 0, 0, 0.5);
+}
+.inp-file button{
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #E95A08;
+    color: #ffffff;
+    border: none;
+    padding: 17px 46px;
+    margin-left: -2px;
+}
 
 
 

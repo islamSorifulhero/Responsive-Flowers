@@ -3,26 +3,76 @@
 
     } */
 }
+
 @media screen and (max-width: 576px) {
-    .bann, .bann-home{
+
+    .bann,
+    .bann-home {
         display: none;
     }
-    .container{
+
+    .container {
         flex-direction: column-reverse;
     }
-    .our-plants{
+
+    .our-plants {
         width: 95%;
     }
-    .main-cart-box{
-        width: 95%;
+
+
+    .cart-box img {
+        width: 100%;
+        height: auto;
+    }
+    .cart-section{
+        width: 100%;
+    }
+    .btn{
+        padding: 10px 30px;
+    }
+
+    .main-cart-box {
         grid-template-columns: repeat(2, 1fr);
     }
-    .flower-lover-section{
+
+    .flower-lover-section {
         flex-direction: column;
         width: 95%;
         margin: 40px auto;
     }
-    .badge{
+
+    .flower-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .badge {
         display: none;
+    }
+    .challange-section{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    .colorful-bunch{
+        background-size: contain;
+    }
+    .colorful-bunch h1{
+        font-size: 1.125rem;
+        padding-top: 80px;
+    }
+    .inp-file{
+        padding-bottom: 80px;
+    }
+    .inp-file input{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        font-size: .5rem;
+    }
+    .inp-file button{
+        font-size: .5rem;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
     }
 }
