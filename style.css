@@ -72,7 +72,7 @@
     align-items: center;
     text-align: center;
 }
-.our-plants h1{
+.our-main-head{
     font-size: 3.125rem;
     font-weight: bold;
     color: #000000;
@@ -113,12 +113,28 @@
     margin: 49px auto;
     align-items: center;
 }
+/* flower love section */
 .flower-lover-section{
     display: flex;
     width: 69%;
     height: auto;
     align-items: center;
-    margin: 100px auto;
+    margin: 200px auto;
+    gap: 60px;
+}
+.main-list-item{
+    margin-top: 20px;
+}
+.flower-img img{
+    width: 100%;
+    height: auto;
+}
+.badge{
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    margin-top: -941px;
+    margin-left: 564px;
 }
 
 

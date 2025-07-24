@@ -17,4 +17,12 @@
         width: 95%;
         grid-template-columns: repeat(2, 1fr);
     }
+    .flower-lover-section{
+        flex-direction: column;
+        width: 95%;
+        margin: 40px auto;
+    }
+    .badge{
+        display: none;
+    }
 }
