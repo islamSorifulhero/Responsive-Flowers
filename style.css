@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.work-sans-file {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.header{
+    width: 79%;
+    margin: 30px auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.banner ul{
+    display: flex;
+    list-style: none;
+}
+.banner ul li a{
+    text-decoration: none;
+}
+.banner .bann-home{
+    margin-right: 3rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #252432;
+}
+.banner .bann{
+    margin-right: 3rem;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #8987A1;
+}
+.banner .bann-cart{
+    color: #000000;
+}
+.container{
+    display: flex;
+    width: 79%;
+    height: auto;
+    margin: 90px auto;
+    align-items: end;
+}
+.left-container h1{
+    color: #000000;
+    font-size: 4rem;
+    font-weight: bold;
+}
+#left-container-color{
+    color: #E95A08;
+}
+.left-container p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.375rem;
+    font-weight: normal;
+    margin-top: 13px;
+}
