@@ -1,7 +1,7 @@
 @media screen and (max-width: 992px) {
-    .container{
+    /* .container{
 
-    }
+    } */
 }
 @media screen and (max-width: 576px) {
     .bann, .bann-home{
@@ -9,5 +9,12 @@
     }
     .container{
         flex-direction: column-reverse;
+    }
+    .our-plants{
+        width: 95%;
+    }
+    .main-cart-box{
+        width: 95%;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
