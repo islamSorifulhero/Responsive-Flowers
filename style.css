@@ -53,9 +53,33 @@
 #left-container-color{
     color: #E95A08;
 }
-.left-container p{
+.container-description{
     color: rgba(0, 0, 0, 0.5);
     font-size: 1.375rem;
     font-weight: normal;
     margin-top: 13px;
+}
+
+/* section-2 */
+#unic-color{
+    color: #E95A08;
+}
+.our-plants{
+    width: 79%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.our-plants h1{
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: #000000;
+}
+.our-plants p{
+
+}
+
+/*  hide  */
+.hide{
+    display: none;
 }
