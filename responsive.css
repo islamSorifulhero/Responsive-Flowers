@@ -9,6 +9,9 @@
     .badge {
         display: none;
     }
+    .left-container h1 {
+        font-size: 3rem;
+    }
 }
 @media screen and (max-width: 992px) {
     .container{
@@ -17,10 +20,12 @@
     .badge {
         display: none;
     }
+    .left-container h1 {
+        font-size: 2rem;
+    }
 }
 @media screen and (max-width: 768px) {
     .challange-section {
-        /* width: 100%; */
         grid-template-columns: 1fr;
     }
     .footer-section {
