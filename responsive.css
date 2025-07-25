@@ -9,19 +9,36 @@
         flex-direction: column-reverse;
     }
 
+    .left-container h1 {
+        margin-top: 28px;
+        font-size: 1.5rem;
+    }
+
+    .container-description {
+        font-size: 0.875rem;
+    }
+
     .our-plants {
         width: 95%;
     }
 
+    .our-main-head {
+        font-size: 1.5rem;
+    }
+    br{
+        display: none;
+    }
 
     .cart-box img {
         width: 100%;
         height: auto;
     }
-    .cart-section{
+
+    .cart-section {
         width: 100%;
     }
-    .btn{
+
+    .btn {
         padding: 10px 30px;
     }
 
@@ -43,33 +60,40 @@
     .badge {
         display: none;
     }
-    .challange-section{
+
+    .challange-section {
         width: 100%;
         grid-template-columns: 1fr;
     }
-    .colorful-bunch{
+
+    .colorful-bunch {
         background-size: contain;
     }
-    .colorful-bunch h1{
+
+    .colorful-bunch h1 {
         font-size: 1.125rem;
         padding-top: 80px;
     }
-    .inp-file{
+
+    .inp-file {
         padding-bottom: 80px;
     }
-    .inp-file input{
+
+    .inp-file input {
         padding-top: 5px;
         padding-bottom: 5px;
         padding-left: 5px;
         font-size: .5rem;
     }
-    .inp-file button{
+
+    .inp-file button {
         font-size: .5rem;
         padding-top: 5px;
         padding-bottom: 5px;
         padding-left: 5px;
     }
-    .footer-section{
+
+    .footer-section {
         flex-direction: column;
         gap: 10px;
     }
